@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+    font-family: 'montserrat', sans-serif;
+}
+
+/* navigation */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    padding: 20px 0px 20px;
+}
+header nav img{
+    width: 70px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+header nav .navigation li a{
+    text-decoration: none;
+    color: #fff;
+}
+header nav .navigation li a:hover{
+    color: #f07246;
+    transition: 0.3s;
+}
+header nav .media-sosial li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+header nav .media-sosial li a:hover{
+    color: #f07246;
+    transition: 0.3s;
+}
+
+/* main ---home */
+main .home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    height: 600px;
+}
+main .home article h2{
+    font-size: 4em;
+    color: gray;
+    font-weight: 700;
+}
+main .home article h1{
+    font-size: 5em;
+    color: #fff;
+    font-weight: 900;
+    line-height: 92%;
+    margin-bottom: 20px;
+}
+main .home article h1>span{
+    color: #f07246;
+}
+main .home article a{
+    padding: 8px 20px 8px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f07246;
+    border-radius: 20px;
+    border: 2px solid  #f07246;
+}
+main .home article a:hover{
+    color: #f07246;
+    background-color: transparent;
+    border: 2px solid  #f07246;
+    transition: 0.3s;
+}
+main .home img{
+    width: 400px;
+}
+
+/* ---about me */
+main .about-me {
+    background-color: #1f1f1f;
+}
+main .about-me h1{
+    text-align: center;
+    color: #f07246;
+    font-size: 2em;
+    padding: 30px 0px;
+}
+main .about-me .content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    height: 600px;
+    gap: 50px;
+}
+main .about-me .content-1 img{
+    width: 500px;
+}
+main .about-me .content-1 article p{
+    color: #fff;
+    line-height: 140%;
+}
+main .about-me .content-1 article p>span{
+    color: #f07246;
+}
+main .about-me .content-1 article .media-sosial{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 20px 0px;
+}
+main .about-me .content-1 article .media-sosial li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+main .about-me .content-1 article .media-sosial li a:hover{
+    transition: 0.3s;
+    color: #f07246;
+}
+
+/* ---my portofolio */
+main .portofolio h1{
+    text-align: center;
+    color: #f07246;
+    font-size: 2em;
+    padding: 30px 0px;
+}
+main .portofolio .content-portofolio{
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    margin: auto;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+main .portofolio .content-portofolio img{
+    width: 300px;
+}
+main .portofolio .content-portofolio .portofolio1{
+    background-color: #fff;
+    padding: 20px;
+    
+    border-radius: 20px;
+}
+main .portofolio .content-portofolio .portofolio2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+main .portofolio .content-portofolio h5{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px 0px;
+}
+main .portofolio center a{
+    padding: 8px 20px 8px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f07246;
+    border-radius: 20px;
+    border: 2px solid  #f07246;
+}
+
+/* skills */
